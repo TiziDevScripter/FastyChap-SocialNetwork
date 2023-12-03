@@ -7,7 +7,7 @@ import { Home } from './_root/pages'
 function App() {
     return (
         <>
-            <main className='flex h-screen bg-pink-100'>
+            <main className='flex min-h-screen'>
                 <Routes>
                     {/* public routes */}
                     <Route element={<AuthLayout />}>
